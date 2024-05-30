@@ -1,0 +1,151 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employeeJson": [
+    {
+      "firstName": "Ram Vinay",
+      "lastName": "Kumar",
+      "email": "ram.kumar@theoptimum.net",
+      "dob": "1982-01-04T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "Dell",
+      "experience": 18,
+      "package": 38,
+      "id": "fbe3"
+    },
+    {
+      "id": "00a1",
+      "firstName": "Prasanta",
+      "lastName": "Mahankuda",
+      "email": "prasanta@gmail.com",
+      "dob": "1985-05-08T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "UIM",
+      "experience": 12,
+      "package": 29
+    },
+    {
+      "firstName": "Selva",
+      "lastName": "Raj",
+      "email": "selva@oppo.org",
+      "dob": "1987-12-09T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "Wells Fargo",
+      "experience": 10,
+      "package": 29,
+      "id": "76ad"
+    },
+    {
+      "firstName": "Rajesh",
+      "lastName": "Mony",
+      "email": "rajesh@mishra.in",
+      "dob": "2021-02-01T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "HCL",
+      "experience": 12,
+      "package": 35,
+      "id": "ce9f"
+    },
+    {
+      "id": "78fa",
+      "firstName": "Mahesh",
+      "lastName": "Kale",
+      "email": "mahesh.kale@form.net",
+      "dob": "1987-02-22T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "Optimum",
+      "experience": 6,
+      "package": 25
+    },
+    {
+      "id": "a052",
+      "firstName": "abcd",
+      "lastName": "kjlkjl",
+      "email": "dsaf@kj.dfad",
+      "dob": "2002-03-02T18:30:00.000Z",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "dfadf",
+      "experience": 12,
+      "package": 21
+    },
+    {
+      "firstName": "AD",
+      "lastName": "VCXZG",
+      "email": "VXCZV@SDG.GHG",
+      "dob": "2213-03-02T18:30:00.000Z",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "REFDH",
+      "experience": 27,
+      "package": 127,
+      "id": "d197"
+    },
+    {
+      "id": "c246",
+      "firstName": "cvzxcv",
+      "lastName": "cvzcx",
+      "email": "czxcv@gfdg.hgfs",
+      "dob": "2009-12-10T18:30:00.000Z",
+      "gender": "female",
+      "education": "Intermediate",
+      "company": "czv",
+      "experience": 3,
+      "package": 33
+    },
+    {
+      "id": "6406",
+      "firstName": "Sanjh",
+      "lastName": "dfak",
+      "email": "adfsa@kjdf.asf",
+      "dob": "2341-02-02T18:30:00.000Z",
+      "gender": "female",
+      "education": "Diploma",
+      "company": "sdfa",
+      "experience": 33,
+      "package": 334
+    },
+    {
+      "id": "472d",
+      "firstName": "Rajan",
+      "lastName": "Patel",
+      "email": "rajan.sdfa@ksd.dsfa",
+      "dob": "2000-12-11T18:30:00.000Z",
+      "gender": "others",
+      "education": "Diploma",
+      "company": "sdf",
+      "experience": 33,
+      "package": 343
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<div class="example-container">
+    <h4 class="card-header">Family Detail</h4>
+    <form [formGroup]="familyForm">
+        <div formArrayName="items" class="example-form-fields">
+            <div *ngFor="let item of items.controls; let i = index" [formGroupName]="i">
+                <div class="example-form-fields">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Member Name</mat-label>
+                        <input matInput type="text" formControlName="memberName" placeholder="Member Name">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Member Email</mat-label>
+                        <input matInput type="email" formControlName="memberEmail" placeholder="Member Email">
+                    </mat-form-field>
+                </div>
+                <div class="example-form-fields">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Member Mobile Number</mat-label>
+                        <input matInput type="number" formControlName="memberMobileNumber"
+                            placeholder="Member Mobile Number">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Member Relation Type</mat-label>
+                        <mat-select formControlName="memberRelationType">
+                            <mat-option *ngFor="let rel of relationShip" [value]="rel">
+                                {{rel}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="example-form-fields">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Member Current Address</mat-label>
+                        <input matInput type="text" formControlName="memberCurrentAddress"
+                            placeholder="Member Current Address">
+                    </mat-form-field>
+                    <button type="button" (click)="removeMember(i)">Remove</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-header">
+            <button type="button" (click)="addMember()">Add More</button>
+            <button type="submit" (click)="onSubmit()">Submit</button>
+        </div>
+    </form>
+</div>
